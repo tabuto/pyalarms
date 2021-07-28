@@ -1,0 +1,22 @@
+TELEGRAM_TOKEN: TOKEN
+TELEGRAM_CHAT_ID: CHAT_ID
+plugins:
+ pa_bitcoin:
+  type: euro
+  min_val: 19000
+  max_val: 50000
+  notify_msg: bitcoin  get alarm value
+ pa_daikin:
+  min_val: 16
+  max_val: 27
+  notify_msg: temperature out of range
+ pa_iceweather:
+  current_temp_min: 0
+  current_temp_max: 35
+  tomorrow_temp_min: 0
+  tomorrow_temp_max: 35
+ pa_default:
+  pc_sensors_max: 80
+  pc_cpu_overload: 90
+
+
